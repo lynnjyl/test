@@ -1,5 +1,5 @@
 FROM ubuntu
-
+MAINTAINER Yiling Jia <lynnjyl@gmail.com>
 RUN     apt-get update  &&      \
         apt-get install -y apache2      &&      \
         apt-get clean   &&      \
